@@ -8,6 +8,5 @@
   "bracketSpacing": true,
   "endOfLine": "auto",
   "htmlWhitespaceSensitivity": "ignore",
-  "jsxSingleQuote": false,
   "quoteProps": "as-needed"
 }

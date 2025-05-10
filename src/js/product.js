@@ -1,4 +1,4 @@
-import { getLocalStorage, qs, setLocalStorage } from './utils.mjs'
+import { getLocalStorage, qs, setClick, setLocalStorage } from './utils.mjs'
 import ProductData from './ProductData.mjs'
 
 const dataSource = new ProductData('tents')
@@ -39,5 +39,6 @@ async function addToCartHandler(e) {
   addProductToCart(product)
 }
 
-// add listener to Add to Cart button
-document.getElementById('addToCart').addEventListener('click', addToCartHandler)
+// add listener to Add to Cart button 
+setClick('#addToCart', addToCartHandler)
+

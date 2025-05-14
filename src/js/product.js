@@ -39,6 +39,5 @@ async function addToCartHandler(e) {
   addProductToCart(product)
 }
 
-// add listener to Add to Cart button 
+// add listener to Add to Cart button
 setClick('#addToCart', addToCartHandler)
-

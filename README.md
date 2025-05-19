@@ -21,6 +21,18 @@
 - `npm run build` to build final files when you are ready to turn in.
 
 
+### Trello Workspace - WDD 330
+- https://trello.com/b/yDwiYz3P/sleep-outside-team-7
+
+
+### Team Members:
+- Adler M Orteney
+- Augustus Yuki Yakana
+- Rex Jonathan Kapoloma
+- Michael K Anderson
+- Alec J Nugent
+
+
 ---
 _BYU-Pathway Worldwide improves lives through access to spiritually based, online affordable higher education. Its mission is to develop disciples of Jesus Christ who are leaders in their homes, the Church, and their communities._
 

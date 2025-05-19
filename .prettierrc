@@ -8,5 +8,6 @@
   "bracketSpacing": true,
   "endOfLine": "auto",
   "htmlWhitespaceSensitivity": "ignore",
-  "quoteProps": "as-needed"
+  "quoteProps": "as-needed",
+  "allowConsole": true
 }

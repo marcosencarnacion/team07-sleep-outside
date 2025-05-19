@@ -6,12 +6,13 @@
   "scripts": {
     "start": "vite",
     "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
     "lint": "eslint *.js src/**/*.js",
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
-    "lint-fix": "npx eslint *.js src/**/*.js --fix",
+    "lint-fix": "npx eslint *.js src/**/*js --fix",
     "test": "jest"
   },
-  "author": "Shane Thompson",
+  "author": "WDD330 - Team 07",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.56.0",

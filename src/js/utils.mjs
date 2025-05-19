@@ -7,7 +7,13 @@ export function qs(selector, parent = document) {
 
 // retrieve data from localstorage
 export function getLocalStorage(key) {
-  return JSON.parse(localStorage.getItem(key));
+  try {
+    return JSON.parse(localStorage.getItem(key));
+  } catch (error) {
+    // eslint-disable-next-line no-console
+    console.log('Error parsing localStorage data:', error);
+    return null;
+  }
 }
 // save data to local storage
 export function setLocalStorage(key, data) {
@@ -25,5 +31,5 @@ export function setClick(selector, callback) {
 export function getParam(param) {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
-  const product = urlParams.get('product');
+  return urlParams.get(param);
 }

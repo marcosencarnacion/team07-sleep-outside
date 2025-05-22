@@ -31,6 +31,7 @@
 - Rex Jonathan Kapoloma
 - Michael K Anderson
 - Alec J Nugent
+- Marcos Encarnacion
 
 
 ### Netlify Live Site

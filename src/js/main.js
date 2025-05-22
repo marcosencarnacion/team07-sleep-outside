@@ -1,10 +1,12 @@
-import ProductData from "./ProductData.mjs";
-import ProductList from "./ProductList.mjs";
+import ProductData from './ProductData.mjs';
+import ProductList from './ProductList.mjs';
 
-const dataSource = new ProductData("tents");
+// Create data source instance with your existing ProductData
+const dataSource = new ProductData('tents');
 
-const element = document.querySelector(".product-list");
+// Get the HTML element where we'll render the products
+const tentListElement = document.querySelector('.product-list');
 
-const productList = new ProductList("Tents", dataSource, element);
-
-productList.init();
+// Create and initialize the ProductList
+const tentList = new ProductList('tents', dataSource, tentListElement);
+tentList.init();

@@ -262,6 +262,37 @@ footer {
   padding: 1em;
 }
 
+
+/* Changes image sizes */
+li img {
+  width: 100%;
+  /* Default: take full width of the li */
+  height: auto;
+  max-width: 300px;
+  /* Optional: cap the maximum size */
+}
+
+/* Small screens (phones) */
+@media (max-width: 600px) {
+  li img {
+    width: 80px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  li img {
+    width: 150px;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1025px) {
+  li img {
+    width: 200px;
+  }
+}
+
 .hide {
   display: none;
 }

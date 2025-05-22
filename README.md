@@ -33,6 +33,9 @@
 - Alec J Nugent
 
 
+### Netlify Live Site
+- https://wdd330-team07.netlify.app/
+
 ---
 _BYU-Pathway Worldwide improves lives through access to spiritually based, online affordable higher education. Its mission is to develop disciples of Jesus Christ who are leaders in their homes, the Church, and their communities._
 

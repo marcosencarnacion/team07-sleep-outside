@@ -90,7 +90,7 @@ p {
   margin-top: -1.3em;
 }
 
-.logo--square > div {
+.logo--square>div {
   margin-top: -1.7em;
 }
 
@@ -262,6 +262,7 @@ footer {
   padding: 1em;
 }
 
+
 /* Changes image sizes */
 li img {
   width: 100%;
@@ -290,4 +291,16 @@ li img {
   li img {
     width: 200px;
   }
+}
+
+.hide {
+  display: none;
+}
+
+.cart-footer {
+  text-align: right;
+  max-width: 640px;
+  margin: 0 auto;
+  color: green;
+  font-weight: bolder;
 }
